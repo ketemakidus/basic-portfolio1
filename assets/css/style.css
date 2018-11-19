@@ -1,0 +1,128 @@
+body 
+{font-family: 'Georgia';
+background-color:#ffffff;
+background-image: url('../image/concrete_seamless.png') ;
+
+}
+
+footer
+ { text-align:center;
+  background-color:#666666;
+    border-top: 10px solid #4aaaa5;
+   border-width: 3px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 6%;
+   color: white;
+ 
+ }
+  
+h1
+    {background-color:#4aaaa5;
+      color:white;
+      width:15%;
+      height: 70px;
+      position: fixed;
+      top: -21px;
+      left: 100px;
+      text-align: center;
+    }
+
+#wrapper{
+  color: #ffffff;
+  max-width: 960px;
+  margin:  70px;
+ 
+padding:100px;
+border: 18px solid;
+background-color: #ffffff
+}
+
+img {
+float: left;
+  margin-right: 70px;
+}
+
+h2 {color:#4aaaa5;
+  margin: auto;
+
+}
+
+p { font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   color:#777777;
+}
+
+ul {
+  color:#777777;
+  float: right;
+  margin: 2px;
+}
+li {
+  display: inline;
+  color:#777777;
+  font-variant: small-caps;
+}
+header {background-color: #ffffff;
+border: #cccccc;
+
+
+
+}
+
+a {
+  text-decoration: none;
+}
+h3 {
+  {background-color:#4aaaa5;
+    color:white;
+    width:15%;
+    height: 70px;
+  }
+  div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
