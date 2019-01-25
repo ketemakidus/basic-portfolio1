@@ -115,7 +115,7 @@ footer {
   margin-right: 25px;
 }
 
-/* contact page */
+
 
 #contact-form ul {
   margin-bottom: 20px;
@@ -155,7 +155,7 @@ input[type=submit] {
   border: 0 none;
 }
 .container-fluid{  
-  background: url('../image/vadim-sherbakov-68-unsplash.jpg') no-repeat center center fixed; 
+  background: url('../image/shifaaz-shamoon-1113388-unsplash.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -175,6 +175,12 @@ input[type=submit] {
   img {
     left: 50%;
     margin-left: -512px;   
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
   }
 }
 
