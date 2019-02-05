@@ -64,7 +64,7 @@ footer {
   -o-background-size: cover;
   background-size: cover;
 }
-@media only screen and (min-width: 768px).container {
+@media only screen and (min-width: 768px).container{
     max-width:100%;
     max-width:100%;
 }
@@ -91,7 +91,7 @@ a {
 .img-thumbnail rounded-circle{
   border: none;
 }
-/* @media only screen and (max-width:300px) {
+@media only screen and (max-width:300px) {
 
   .container {
     width: 80%;
@@ -103,24 +103,17 @@ a {
 }
  
 @media only screen and (max-width: 300px) {
-  body {
-    background-color: #F09A9D; 
+ p{
+   
+ }
   }
-}
+
 @media only screen and (min-width: px) and (max-width: 960px) {
-  body {
-    background-color: #F5CF8E; 
-  }
-} */
+ 
+}
 @media only screen and (max-width:550px) {
  
   .col-sm-4{
     width: 100%;
   }
 } 
-@media (min-width: 400px)
-.col-sm-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-}
